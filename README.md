@@ -4,20 +4,18 @@
 
 This project was developed as part of the UMDAC Datathon, focusing on analyzing and forecasting cash flow to support financial decision-making. (Group: WOW)
 
-It aims to provide finance teams with better short-term visibility into liquidity, detect abnormal cash flow patterns, and evaluate the reliability of forecasting models.
+The goal was to provide finance teams with better visibility into short-term liquidity, identify abnormal cash flow behavior, and evaluate the reliability of forecasting models.
 
 ---
 
 ## 🧠 Problem Statement
 
 Finance teams often lack reliable short-term visibility into weekly cash positions due to:
-
 * Irregular cash inflows and outflows
 * Complex transaction categories
 * Uncertain forecasting accuracy
 
 This leads to challenges in:
-
 * Anticipating liquidity risk
 * Trusting forecast results
 * Detecting unusual financial activity
@@ -27,7 +25,6 @@ This leads to challenges in:
 ## 💡 Solution
 
 We developed a **Weekly Cash Control Tower**, integrating:
-
 * 📊 Interactive Power BI dashboard
 * 🤖 Python-based forecasting models
 * 🚨 Anomaly detection mechanism
@@ -37,19 +34,15 @@ We developed a **Weekly Cash Control Tower**, integrating:
 ## 📊 Dashboard Preview
 
 ### 🔹 Liquidity & Cash Overview
-
 ![Dashboard](images/dashboard_overview.png)
 
 ### 🔹 Cash Flow Drivers
-
 ![Drivers](images/cashflow_drivers.png)
 
 ### 🔹 Anomaly Detection
-
 ![Anomaly](images/anomaly_detection.png)
 
 ### 🔹 Forecast Analysis
-
 ![Forecast](images/forecast.png)
 
 ---
@@ -60,7 +53,6 @@ We developed a **Weekly Cash Control Tower**, integrating:
 2. Data cleaning (handling missing values, formatting dates)
 3. Aggregated transactions into weekly cash flow
 4. Feature engineering:
-
    * Net cash flow
    * Weekly ending balance
 5. Data used for dashboard visualization and forecasting
@@ -155,6 +147,17 @@ This emphasizes the importance of:
 * 📊 Dashboard: `/dashboard/cashflow_dashboard.pbix`
 * 📓 Notebook: `/notebook/forecasting_model.ipynb`
 * 📄 Presentation: `/presentation/UMDAC_Cashflow_Datathon.pdf`
+
+---
+
+## 💡 Business Impact
+
+This system helps finance teams to:
+
+* Monitor weekly liquidity
+* Identify abnormal transactions early
+* Understand key cash flow drivers
+* Make informed decisions despite forecasting uncertainty
 
 ---
 
