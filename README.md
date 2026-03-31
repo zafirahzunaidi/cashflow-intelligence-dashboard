@@ -144,9 +144,9 @@ This emphasizes the importance of:
 
 ## 📂 Project Files
 
-* 📊 Dashboard: `/dashboard/cashflow_dashboard.pbix`
+* 📊 Dashboard: `/dashboard/WOW Dashboard.pbix`
 * 📓 Notebook: `/notebook/forecasting_model.ipynb`
-* 📄 Presentation: `/presentation/UMDAC_Cashflow_Datathon.pdf`
+* 📄 Presentation: `/presentation/WOW Presentation Slides.pdf`
 
 ---
 
