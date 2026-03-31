@@ -1,10 +1,10 @@
-# 💰 Cash Flow Intelligence Dashboard & Forecasting System (UMDAC Datathon)
+# 💰 Cash Flow Intelligence Dashboard & Forecasting System
 
 ## 📌 Overview
 
-This project was developed as part of the UMDAC Datathon, focusing on analyzing and forecasting cash flow to support financial decision-making.
+This project was developed as part of the UMDAC Datathon, focusing on analyzing and forecasting cash flow to support financial decision-making. (Group: WOW)
 
-The goal was to provide finance teams with better visibility into short-term liquidity, identify abnormal cash flow behavior, and evaluate the reliability of forecasting models.
+It aims to provide finance teams with better short-term visibility into liquidity, detect abnormal cash flow patterns, and evaluate the reliability of forecasting models.
 
 ---
 
@@ -16,49 +16,83 @@ Finance teams often lack reliable short-term visibility into weekly cash positio
 * Complex transaction categories
 * Uncertain forecasting accuracy
 
-This makes it difficult to:
+This leads to challenges in:
 
-* Anticipate liquidity risks
-* Trust forecasted cash positions
-* Detect unusual financial activities
+* Anticipating liquidity risk
+* Trusting forecast results
+* Detecting unusual financial activity
 
 ---
 
 ## 💡 Solution
 
-We developed a **“Weekly Cash Control Tower”**, combining:
+We developed a **Weekly Cash Control Tower**, integrating:
 
 * 📊 Interactive Power BI dashboard
 * 🤖 Python-based forecasting models
-* 🚨 Anomaly detection logic
+* 🚨 Anomaly detection mechanism
+
+---
+
+## 📊 Dashboard Preview
+
+### 🔹 Liquidity & Cash Overview
+
+![Dashboard](images/dashboard_overview.png)
+
+### 🔹 Cash Flow Drivers
+
+![Drivers](images/cashflow_drivers.png)
+
+### 🔹 Anomaly Detection
+
+![Anomaly](images/anomaly_detection.png)
+
+### 🔹 Forecast Analysis
+
+![Forecast](images/forecast.png)
+
+---
+
+## 🔄 Data Processing Pipeline
+
+1. Raw financial transaction data collected
+2. Data cleaning (handling missing values, formatting dates)
+3. Aggregated transactions into weekly cash flow
+4. Feature engineering:
+
+   * Net cash flow
+   * Weekly ending balance
+5. Data used for dashboard visualization and forecasting
 
 ---
 
 ## ⚙️ Key Features
 
-### 📊 1. Cash Flow Dashboard (Power BI)
+### 📊 Cash Flow Monitoring
 
 * Weekly cash inflow & outflow tracking
 * Net cash flow trends
-* Country-level and category-level breakdown
-* Weekly ending balance monitoring
+* Ending balance visualization
 
-### 📈 2. Cash Flow Drivers Analysis
+### 📈 Cash Flow Drivers Analysis
 
-* Identified major contributors to inflow (e.g., AR)
-* Identified major contributors to outflow (e.g., Netting AP, Payroll)
-* Highlighted concentration of cash movements in key categories
+* Identified key contributors:
 
-### 🚨 3. Anomaly Detection
+  * AR → main inflow
+  * Netting AP, Payroll → major outflows
+* Highlighted concentration of cash movements
 
-* Detected abnormal weeks using threshold-based approach
+### 🚨 Anomaly Detection
+
+* Detected abnormal weeks using threshold logic
 * Identified:
 
   * 6 sudden spikes
   * 6 sudden drops
-* Enabled early risk monitoring for unusual financial activity
+* Supports early risk detection
 
-### 🤖 4. Forecasting Model (Python)
+### 🤖 Forecasting Models
 
 Implemented multiple time-series approaches:
 
@@ -69,83 +103,74 @@ Implemented multiple time-series approaches:
 
 ---
 
-## 📊 Results & Insights
+## 📊 Key Insights
 
-* Cash outflows frequently exceeded inflows → consistent cash burn periods
-* Cash flow exhibited high volatility across weeks
-* A small number of categories drove the majority of cash movement
-* 12 abnormal weeks were detected, indicating potential financial risks
+* Cash outflows frequently exceeded inflows → cash burn periods
+* Cash flow is highly volatile week-to-week
+* A small number of categories drive most transactions
+* 12 abnormal weeks detected requiring investigation
 
 ---
 
-## ⚠️ Forecast Performance (Honest Evaluation)
+## ⚠️ Forecast Evaluation
 
 * MAPE (Net): **370.14 (Poor)**
 * Directional Accuracy: **57.14%**
 
-### 🧠 Key Learning:
+### 🧠 Interpretation
 
-The forecasting results highlight the **challenges of predicting real-world financial data**, which is:
+The results highlight the difficulty of forecasting real-world financial data due to:
 
-* Highly volatile
-* Influenced by external factors
-* Not easily captured by simple models
+* High volatility
+* External influencing factors
+* Limited predictive features
 
-This project emphasizes the importance of:
+This emphasizes the importance of:
 
 * Model evaluation
-* Transparency in reporting
+* Transparent reporting
 * Using forecasts with caution
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Power BI (dashboard & visualization)
-* Python (forecasting & analysis)
+* Power BI (dashboard visualization)
+* Python (data processing & forecasting)
 * Pandas, NumPy, Scikit-learn
 
 ---
 
 ## 👩‍💻 My Contribution
 
-* Developed Power BI dashboard for financial insights
-* Assisted in data analysis and visualization
-* Contributed to interpretation of forecasting results
-* Participated in business storytelling and presentation
+* Designed and developed Power BI dashboard
+* Performed data analysis and visualization
+* Contributed to forecasting implementation
+* Interpreted results and presented business insights
 
 ---
 
-## 📷 Dashboard Preview
+## 📂 Project Files
 
-(Insert screenshots here)
-
----
-
-## 💡 Business Impact
-
-This system helps finance teams to:
-
-* Monitor weekly liquidity
-* Identify abnormal transactions early
-* Understand key cash flow drivers
-* Make informed decisions despite forecasting uncertainty
+* 📊 Dashboard: `/dashboard/cashflow_dashboard.pbix`
+* 📓 Notebook: `/notebook/forecasting_model.ipynb`
+* 📄 Presentation: `/presentation/UMDAC_Cashflow_Datathon.pdf`
 
 ---
 
 ## 🏆 Experience
 
-Completed under datathon conditions, focusing on:
+Completed in a datathon setting, focusing on:
 
-* real-world financial data
-* time constraints
-* collaborative problem-solving
+* Real-world financial data
+* Time-constrained problem solving
+* Collaborative teamwork
 
 ---
 
 ## 🚀 Future Improvements
 
-* Use advanced models (e.g., LSTM, Prophet)
-* Incorporate external economic factors
+* Apply advanced models (e.g., Prophet, LSTM)
+* Incorporate external economic indicators
 * Improve feature engineering for better accuracy
-
+* Enhance anomaly detection with ML techniques
