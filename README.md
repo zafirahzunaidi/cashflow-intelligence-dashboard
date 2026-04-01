@@ -34,16 +34,16 @@ We developed a **Weekly Cash Control Tower**, integrating:
 ## 📊 Dashboard Preview
 
 ### 🔹 Liquidity & Cash Overview
-![Dashboard](images/dashboard_overview.png)
+<img src="images/dashboard_overview.png" width="700">
 
 ### 🔹 Cash Flow Drivers
-![Drivers](images/cashflow_drivers.png)
+<img src="images/cashflow_drivers.png" width="700">
 
 ### 🔹 Anomaly Detection
-![Anomaly](images/anomaly_detection.png)
+<img src="images/anomaly_detection.png" width="700">
 
 ### 🔹 Forecast Analysis
-![Forecast](images/forecast.png)
+<img src="images/forecast.png" width="700">
 
 ---
 
