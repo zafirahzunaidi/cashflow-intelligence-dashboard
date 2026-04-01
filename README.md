@@ -143,10 +143,11 @@ This emphasizes the importance of:
 ---
 
 ## 📂 Project Files
-
-* 📊 Dashboard: `/dashboard/WOW Dashboard.pbix`
-* 📓 Notebook: `/notebook/forecasting_model.ipynb`
-* 📄 Presentation: `/presentation/WOW Presentation Slides.pdf`
+```plaintext
+/dashboard/ → Power BI Dashboard
+/Notebook/ → Python code for the forecast model  
+/Presentation/ → Presentation slides 
+```
 
 ---
 
